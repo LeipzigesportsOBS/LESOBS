@@ -1,0 +1,12 @@
+/bin/*
+/obs-plugins/*
+*.exe
+/config/obs-studio/crashes/*
+/config/obs-studio/logs/*
+/config/obs-studio/plugin_config/*
+/config/obs-studio/profiler_data/*
+/config/obs-studio/updates/*
+/config/obs-studio/basic/profiles/*
+/data/*
+/obs-plugins/*
+/config/obs-studio/basic/scenes/*.bak
