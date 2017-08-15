@@ -1,8 +1,0 @@
-{
-    "settings": {
-        "key": "live_sub_8efb430106d20fc6ca2311232f19b25f96ee420f",
-        "server": "rtmp://live-fra.twitch.tv/app",
-        "service": "Twitch"
-    },
-    "type": "rtmp_common"
-}
