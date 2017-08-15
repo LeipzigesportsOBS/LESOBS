@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "TemplateTickerUntenRechts",
-    "current_scene": "TemplateTickerUntenRechts",
+    "current_program_scene": "Main",
+    "current_scene": "Main",
     "current_transition": "Überblenden",
     "modules": {
         "auto-scene-switcher": {
@@ -152,6 +152,55 @@
         }
     ],
     "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": false,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "noise_gate_filter",
+                    "mixers": 255,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Noise Gate",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "open_threshold": -21.0
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "libobs.unmute": []
+            },
+            "id": "wasapi_input_capture",
+            "mixers": 255,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "AUDIO Micro",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "use_device_timing": true
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
@@ -385,7 +434,6 @@
                         "key": "OBS_KEY_F11"
                     }
                 ],
-                "libobs.hide_scene_item.Desktop": [],
                 "libobs.hide_scene_item.IdleBg": [],
                 "libobs.hide_scene_item.TemplateCamBox": [],
                 "libobs.hide_scene_item.TemplateInfoBox": [],
@@ -399,7 +447,6 @@
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
                 "libobs.hide_scene_item.Übergang": [],
-                "libobs.show_scene_item.Desktop": [],
                 "libobs.show_scene_item.IdleBg": [],
                 "libobs.show_scene_item.TemplateCamBox": [],
                 "libobs.show_scene_item.TemplateInfoBox": [],
@@ -439,7 +486,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 1,
-                        "locked": false,
+                        "locked": true,
                         "name": "IdleBg",
                         "pos": {
                             "x": 0.0,
@@ -466,7 +513,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 11,
-                        "locked": false,
+                        "locked": true,
                         "name": "TemplateMusicTicker",
                         "pos": {
                             "x": 52.0,
@@ -601,7 +648,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 8,
-                        "locked": false,
+                        "locked": true,
                         "name": "TemplateCamBox",
                         "pos": {
                             "x": 1301.0,
@@ -614,33 +661,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 9,
-                        "locked": true,
-                        "name": "Desktop",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
                     },
                     {
                         "align": 5,
@@ -770,6 +790,7 @@
                         "key": "OBS_KEY_F10"
                     }
                 ],
+                "libobs.hide_scene_item.AUDIO Micro": [],
                 "libobs.hide_scene_item.LogoOnly": [
                     {
                         "control": true,
@@ -818,6 +839,7 @@
                 ],
                 "libobs.hide_scene_item.TwitchAlert": [],
                 "libobs.hide_scene_item.Übergang": [],
+                "libobs.show_scene_item.AUDIO Micro": [],
                 "libobs.show_scene_item.LogoOnly": [
                     {
                         "control": true,
@@ -877,7 +899,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 20,
+                "id_counter": 21,
                 "items": [
                     {
                         "align": 5,
@@ -1179,6 +1201,33 @@
                     {
                         "align": 5,
                         "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 21,
+                        "locked": true,
+                        "name": "AUDIO Micro",
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
                             "x": 1920.0,
                             "y": 1080.0
                         },
@@ -1361,9 +1410,8 @@
                         "key": "OBS_KEY_F9"
                     }
                 ],
-                "libobs.hide_scene_item.AUNA": [],
+                "libobs.hide_scene_item.AUDIO Micro": [],
                 "libobs.hide_scene_item.Bg": [],
-                "libobs.hide_scene_item.Headset": [],
                 "libobs.hide_scene_item.TemplateCamBox": [
                     {
                         "alt": true,
@@ -1383,9 +1431,8 @@
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
                 "libobs.hide_scene_item.Übergang": [],
-                "libobs.show_scene_item.AUNA": [],
+                "libobs.show_scene_item.AUDIO Micro": [],
                 "libobs.show_scene_item.Bg": [],
-                "libobs.show_scene_item.Headset": [],
                 "libobs.show_scene_item.TemplateCamBox": [
                     {
                         "alt": true,
@@ -1416,7 +1463,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 10,
+                "id_counter": 11,
                 "items": [
                     {
                         "align": 5,
@@ -1593,7 +1640,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 7,
-                        "locked": false,
+                        "locked": true,
                         "name": "TwitchAlert",
                         "pos": {
                             "x": 1226.0,
@@ -1619,36 +1666,9 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 8,
+                        "id": 11,
                         "locked": false,
-                        "name": "Headset",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 9,
-                        "locked": false,
-                        "name": "AUNA",
+                        "name": "AUDIO Micro",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -3146,152 +3166,6 @@
             },
             "sync": 0,
             "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "wasapi_output_capture",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Headset",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device_id": "{0.0.0.00000000}.{a760e380-f15b-40c6-b9a8-da101982dafe}"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "wasapi_output_capture",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "Desktop",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device_id": "{0.0.0.00000000}.{ce7d5d75-f59d-48a3-8d5a-ecd37cd9b461}"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "vst_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "VST 2.x Plug-in",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "chunk_data": "nBIAAAAAtMIAAMBBABAAAAAAgD8AAAAAAgAAAAQAAADDVK5DsPgOQaUrSEUAAAAALWotQzuom0CXk+tD6qCOQAAAAAAAAAAArVUDPP+XEkCzogQ4AAAAAA==",
-                        "plugin_path": "C:/Program Files/VSTPlugins/ReaPlugs/reafir_standalone.dll"
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_gate_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Noise Gate",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "close_threshold": -30.0,
-                        "open_threshold": -25.0
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                },
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": false,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "vst_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "VST 2.x Plug-in2",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "chunk_data": "AAAAAAIAAAABAAAAZGVmYXVsdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-                        "plugin_path": "C:/Program Files/VSTPlugins/ReaPlugs/reastream-standalone.dll"
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "wasapi_input_capture",
-            "mixers": 255,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "AUNA",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "device_id": "{0.0.1.00000000}.{30504015-1474-404d-b693-d94fffda3607}"
-            },
-            "sync": 0,
-            "volume": 0.59270393848419189
         },
         {
             "deinterlace_field_order": 0,
