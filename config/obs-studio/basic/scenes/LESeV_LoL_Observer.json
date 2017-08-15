@@ -1,7 +1,7 @@
 {
     "current_program_scene": "Main",
     "current_scene": "Main",
-    "current_transition": "Überblenden",
+    "current_transition": "Videoschnitt",
     "modules": {
         "auto-scene-switcher": {
             "active": false,
@@ -525,7 +525,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -553,33 +553,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 5,
-                        "locked": true,
-                        "name": "TemplateMusicTicker",
-                        "pos": {
-                            "x": 1449.0,
-                            "y": 980.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
                     },
                     {
                         "align": 5,
@@ -3528,6 +3501,14 @@
             "id": "fade_to_color_transition",
             "name": "Fade to Color",
             "settings": {}
+        },
+        {
+            "id": "obs_stinger_transition",
+            "name": "Videoschnitt",
+            "settings": {
+                "path": "../../Grafiken/Overlay/TRANS_PARENT_5.webm",
+                "transition_point": 3000
+            }
         }
     ]
 }
