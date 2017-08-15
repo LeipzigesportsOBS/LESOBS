@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Ingame",
-    "current_scene": "Ingame",
+    "current_program_scene": "TemplateTickerUntenRechts",
+    "current_scene": "TemplateTickerUntenRechts",
     "current_transition": "Überblenden",
     "modules": {
         "auto-scene-switcher": {
@@ -121,6 +121,9 @@
             "name": "Idle"
         },
         {
+            "name": "TemplateLolObserver"
+        },
+        {
             "name": "TemplateWerbung"
         },
         {
@@ -149,6 +152,116 @@
         }
     ],
     "sources": [
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "TeamLBG 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "../../Grafiken/Overlay/lol/nameboxL.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "chroma_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Chroma Key",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "key_color_type": "custom",
+                        "opacity": 90
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {},
+            "id": "image_source",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "teamRBG 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "file": "../../Grafiken/Overlay/lol/nameboxR.png"
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "teamLScore 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "bk_color": 14286844,
+                "bk_opacity": 0,
+                "color": 5811171,
+                "extents": true,
+                "extents_cx": 40,
+                "extents_cy": 50,
+                "file": "../../teamBlueScore.txt",
+                "font": {
+                    "face": "Kanit",
+                    "flags": 0,
+                    "size": 40,
+                    "style": ""
+                },
+                "gradient": true,
+                "gradient_color": 10272709,
+                "gradient_dir": 73.299999999999997,
+                "gradient_opacity": 28,
+                "opacity": 100,
+                "outline": false,
+                "outline_opacity": 0,
+                "read_from_file": true,
+                "valign": "center",
+                "vertical": false
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
         {
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
@@ -276,7 +389,13 @@
                 "libobs.hide_scene_item.IdleBg": [],
                 "libobs.hide_scene_item.TemplateCamBox": [],
                 "libobs.hide_scene_item.TemplateInfoBox": [],
-                "libobs.hide_scene_item.TemplateMusicTicker": [],
+                "libobs.hide_scene_item.TemplateMusicTicker": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM5"
+                    }
+                ],
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
                 "libobs.hide_scene_item.Übergang": [],
@@ -284,7 +403,13 @@
                 "libobs.show_scene_item.IdleBg": [],
                 "libobs.show_scene_item.TemplateCamBox": [],
                 "libobs.show_scene_item.TemplateInfoBox": [],
-                "libobs.show_scene_item.TemplateMusicTicker": [],
+                "libobs.show_scene_item.TemplateMusicTicker": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM5"
+                    }
+                ],
                 "libobs.show_scene_item.TemplateWerbung": [],
                 "libobs.show_scene_item.TwitchAlert": [],
                 "libobs.show_scene_item.Übergang": []
@@ -542,7 +667,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     }
                 ]
             },
@@ -645,16 +770,7 @@
                         "key": "OBS_KEY_F10"
                     }
                 ],
-                "libobs.hide_scene_item.AUNA": [],
-                "libobs.hide_scene_item.Headset": [],
                 "libobs.hide_scene_item.LogoOnly": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.hide_scene_item.TeamLBG": [
                     {
                         "control": true,
                         "key": "OBS_KEY_A",
@@ -677,7 +793,20 @@
                 ],
                 "libobs.hide_scene_item.TemplateInfoBoxObenRechts": [],
                 "libobs.hide_scene_item.TemplateInfoBoxUntenLinks": [],
-                "libobs.hide_scene_item.TemplateMusicTicker": [],
+                "libobs.hide_scene_item.TemplateLolObserver": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_A",
+                        "shift": true
+                    }
+                ],
+                "libobs.hide_scene_item.TemplateMusicTicker": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM5"
+                    }
+                ],
                 "libobs.hide_scene_item.TemplateSpielaufnahme": [],
                 "libobs.hide_scene_item.TemplateTickerUntenRechts": [],
                 "libobs.hide_scene_item.TemplateWerbung": [
@@ -688,52 +817,8 @@
                     }
                 ],
                 "libobs.hide_scene_item.TwitchAlert": [],
-                "libobs.hide_scene_item.teamL": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.hide_scene_item.teamLScore": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.hide_scene_item.teamR": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.hide_scene_item.teamRBG": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.hide_scene_item.teamRScore": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
                 "libobs.hide_scene_item.Übergang": [],
-                "libobs.show_scene_item.AUNA": [],
-                "libobs.show_scene_item.Headset": [],
                 "libobs.show_scene_item.LogoOnly": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.show_scene_item.TeamLBG": [
                     {
                         "control": true,
                         "key": "OBS_KEY_A",
@@ -756,7 +841,20 @@
                 ],
                 "libobs.show_scene_item.TemplateInfoBoxObenRechts": [],
                 "libobs.show_scene_item.TemplateInfoBoxUntenLinks": [],
-                "libobs.show_scene_item.TemplateMusicTicker": [],
+                "libobs.show_scene_item.TemplateLolObserver": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_A",
+                        "shift": true
+                    }
+                ],
+                "libobs.show_scene_item.TemplateMusicTicker": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM5"
+                    }
+                ],
                 "libobs.show_scene_item.TemplateSpielaufnahme": [],
                 "libobs.show_scene_item.TemplateTickerUntenRechts": [],
                 "libobs.show_scene_item.TemplateWerbung": [
@@ -767,41 +865,6 @@
                     }
                 ],
                 "libobs.show_scene_item.TwitchAlert": [],
-                "libobs.show_scene_item.teamL": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.show_scene_item.teamLScore": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.show_scene_item.teamR": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.show_scene_item.teamRBG": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
-                "libobs.show_scene_item.teamRScore": [
-                    {
-                        "control": true,
-                        "key": "OBS_KEY_A",
-                        "shift": true
-                    }
-                ],
                 "libobs.show_scene_item.Übergang": []
             },
             "id": "scene",
@@ -814,7 +877,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "id_counter": 19,
+                "id_counter": 20,
                 "items": [
                     {
                         "align": 5,
@@ -895,7 +958,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -964,19 +1027,19 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
-                        "locked": false,
+                        "locked": true,
                         "name": "TemplateBoxInfoObenLinks",
                         "pos": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1624.0,
+                            "y": 788.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.55327105522155762,
+                            "y": 0.5517241358757019
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -994,13 +1057,13 @@
                         "locked": false,
                         "name": "TemplateMusicTicker",
                         "pos": {
-                            "x": 261.0,
-                            "y": 1024.0
+                            "x": 1332.0,
+                            "y": 1039.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.73809522390365601,
+                            "y": 0.7321428656578064
                         },
                         "scale_filter": "disable",
                         "visible": false
@@ -1021,13 +1084,13 @@
                         "locked": false,
                         "name": "TemplateWerbung",
                         "pos": {
-                            "x": 0.0,
-                            "y": 966.0
+                            "x": 1527.0,
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 0.68466901779174805,
+                            "y": 0.68421053886413574
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1045,19 +1108,19 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 9,
-                        "locked": false,
+                        "locked": true,
                         "name": "TemplateCamBox",
                         "pos": {
-                            "x": 1589.2713623046875,
-                            "y": 0.0
+                            "x": 311.0,
+                            "y": 904.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.18802084028720856,
-                            "y": 0.18796296417713165
+                            "x": 0.16316089034080505,
+                            "y": 0.16311399638652802
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1075,13 +1138,13 @@
                         "locked": false,
                         "name": "TwitchAlert",
                         "pos": {
-                            "x": 1327.0,
-                            "y": 59.0
+                            "x": 1336.0,
+                            "y": 853.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.74124997854232788,
-                            "y": 0.74166667461395264
+                            "x": 0.37874999642372131,
+                            "y": 0.37833333015441895
                         },
                         "scale_filter": "disable",
                         "visible": true
@@ -1098,198 +1161,9 @@
                         "crop_left": 0,
                         "crop_right": 0,
                         "crop_top": 0,
-                        "id": 11,
-                        "locked": false,
-                        "name": "TeamLBG",
-                        "pos": {
-                            "x": 396.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 12,
-                        "locked": false,
-                        "name": "teamRBG",
-                        "pos": {
-                            "x": 1278.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 13,
-                        "locked": false,
-                        "name": "teamLScore",
-                        "pos": {
-                            "x": 404.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 14,
-                        "locked": false,
-                        "name": "teamL",
-                        "pos": {
-                            "x": 460.0,
-                            "y": 5.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 15,
-                        "locked": false,
-                        "name": "teamRScore",
-                        "pos": {
-                            "x": 1494.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 16,
-                        "locked": false,
-                        "name": "teamR",
-                        "pos": {
-                            "x": 1282.0,
-                            "y": 6.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 17,
-                        "locked": false,
-                        "name": "Headset",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 18,
-                        "locked": false,
-                        "name": "AUNA",
+                        "id": 20,
+                        "locked": true,
+                        "name": "TemplateLolObserver",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1315,7 +1189,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 19,
-                        "locked": false,
+                        "locked": true,
                         "name": "Übergang",
                         "pos": {
                             "x": 0.0,
@@ -1327,7 +1201,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     }
                 ]
             },
@@ -1498,7 +1372,13 @@
                     }
                 ],
                 "libobs.hide_scene_item.TemplateInfoBox": [],
-                "libobs.hide_scene_item.TemplateMusicTicker": [],
+                "libobs.hide_scene_item.TemplateMusicTicker": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM5"
+                    }
+                ],
                 "libobs.hide_scene_item.TemplateSpielaufnahme": [],
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
@@ -1514,7 +1394,13 @@
                     }
                 ],
                 "libobs.show_scene_item.TemplateInfoBox": [],
-                "libobs.show_scene_item.TemplateMusicTicker": [],
+                "libobs.show_scene_item.TemplateMusicTicker": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM5"
+                    }
+                ],
                 "libobs.show_scene_item.TemplateSpielaufnahme": [],
                 "libobs.show_scene_item.TemplateWerbung": [],
                 "libobs.show_scene_item.TwitchAlert": [],
@@ -1626,7 +1512,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 4,
-                        "locked": false,
+                        "locked": true,
                         "name": "TemplateMusicTicker",
                         "pos": {
                             "x": 1275.0,
@@ -1638,7 +1524,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     },
                     {
                         "align": 5,
@@ -1680,7 +1566,7 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 6,
-                        "locked": false,
+                        "locked": true,
                         "name": "TemplateInfoBox",
                         "pos": {
                             "x": 60.0,
@@ -1800,7 +1686,7 @@
                             "y": 1.0
                         },
                         "scale_filter": "disable",
-                        "visible": true
+                        "visible": false
                     }
                 ]
             },
@@ -3235,160 +3121,6 @@
             "deinterlace_mode": 0,
             "enabled": true,
             "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "teamL",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "bk_color": 14286844,
-                "bk_opacity": 0,
-                "color": 5811171,
-                "extents": true,
-                "extents_cx": 190,
-                "extents_cy": 50,
-                "file": "../../teamBlue.txt",
-                "font": {
-                    "face": "Kanit",
-                    "flags": 0,
-                    "size": 45,
-                    "style": ""
-                },
-                "gradient": true,
-                "gradient_color": 10272709,
-                "gradient_dir": 73.299999999999997,
-                "gradient_opacity": 33,
-                "opacity": 98,
-                "outline": false,
-                "outline_opacity": 0,
-                "read_from_file": true,
-                "valign": "center",
-                "vertical": false
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "TeamLBG",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "../../Grafiken/Overlay/lol/nameboxL.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": false,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "chroma_key_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Chroma Key",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "key_color_type": "custom",
-                        "opacity": 90
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {},
-            "id": "image_source",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "teamRBG",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "file": "../../Grafiken/Overlay/lol/nameboxR.png"
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
-            "hotkeys": {},
-            "id": "text_gdiplus",
-            "mixers": 0,
-            "monitoring_type": 0,
-            "muted": false,
-            "name": "teamR",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "align": "center",
-                "bk_color": 14286844,
-                "bk_opacity": 0,
-                "color": 5811171,
-                "extents": true,
-                "extents_cx": 190,
-                "extents_cy": 50,
-                "file": "../../teamRed.txt",
-                "font": {
-                    "face": "Kanit",
-                    "flags": 0,
-                    "size": 45,
-                    "style": ""
-                },
-                "gradient": true,
-                "gradient_color": 10272709,
-                "gradient_dir": 73.299999999999997,
-                "gradient_opacity": 28,
-                "opacity": 100,
-                "outline": false,
-                "outline_opacity": 0,
-                "read_from_file": true,
-                "valign": "center",
-                "vertical": false
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
-            "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
                 "libobs.push-to-mute": [],
@@ -3571,7 +3303,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "teamLScore",
+            "name": "teamRScore",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3584,11 +3316,277 @@
                 "extents": true,
                 "extents_cx": 40,
                 "extents_cy": 50,
-                "file": "../../teamBlueScore.txt",
+                "file": "../../teamRedScore.txt",
                 "font": {
                     "face": "Kanit",
                     "flags": 0,
                     "size": 40,
+                    "style": ""
+                },
+                "gradient": true,
+                "gradient_color": 10272709,
+                "gradient_dir": 73.299999999999997,
+                "gradient_opacity": 28,
+                "opacity": 100,
+                "outline": false,
+                "outline_opacity": 0,
+                "read_from_file": true,
+                "valign": "center",
+                "vertical": false
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "filters": [
+                {
+                    "deinterlace_field_order": 0,
+                    "deinterlace_mode": 0,
+                    "enabled": true,
+                    "flags": 0,
+                    "hotkeys": {},
+                    "id": "color_key_filter",
+                    "mixers": 0,
+                    "monitoring_type": 0,
+                    "muted": false,
+                    "name": "Color Key",
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "settings": {
+                        "opacity": 95
+                    },
+                    "sync": 0,
+                    "volume": 1.0
+                }
+            ],
+            "flags": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.hide_scene_item.TeamLBG 2": [],
+                "libobs.hide_scene_item.teamL 2": [],
+                "libobs.hide_scene_item.teamLScore 2": [],
+                "libobs.hide_scene_item.teamR 2": [],
+                "libobs.hide_scene_item.teamRBG 2": [],
+                "libobs.hide_scene_item.teamRScore": [],
+                "libobs.show_scene_item.TeamLBG 2": [],
+                "libobs.show_scene_item.teamL 2": [],
+                "libobs.show_scene_item.teamLScore 2": [],
+                "libobs.show_scene_item.teamR 2": [],
+                "libobs.show_scene_item.teamRBG 2": [],
+                "libobs.show_scene_item.teamRScore": []
+            },
+            "id": "scene",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "TemplateLolObserver",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "id_counter": 8,
+                "items": [
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 8,
+                        "locked": false,
+                        "name": "TeamLBG 2",
+                        "pos": {
+                            "x": 396.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 7,
+                        "locked": false,
+                        "name": "teamRBG 2",
+                        "pos": {
+                            "x": 1278.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 3,
+                        "locked": false,
+                        "name": "teamR 2",
+                        "pos": {
+                            "x": 1282.0,
+                            "y": 6.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 4,
+                        "locked": false,
+                        "name": "teamRScore",
+                        "pos": {
+                            "x": 1494.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 5,
+                        "locked": false,
+                        "name": "teamL 2",
+                        "pos": {
+                            "x": 460.0,
+                            "y": 5.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    },
+                    {
+                        "align": 5,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_align": 0,
+                        "bounds_type": 0,
+                        "crop_bottom": 0,
+                        "crop_left": 0,
+                        "crop_right": 0,
+                        "crop_top": 0,
+                        "id": 6,
+                        "locked": false,
+                        "name": "teamLScore 2",
+                        "pos": {
+                            "x": 404.0,
+                            "y": 0.0
+                        },
+                        "rot": 0.0,
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_filter": "disable",
+                        "visible": true
+                    }
+                ]
+            },
+            "sync": 0,
+            "volume": 1.0
+        },
+        {
+            "deinterlace_field_order": 0,
+            "deinterlace_mode": 0,
+            "enabled": true,
+            "flags": 0,
+            "hotkeys": {},
+            "id": "text_gdiplus",
+            "mixers": 0,
+            "monitoring_type": 0,
+            "muted": false,
+            "name": "teamR 2",
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "settings": {
+                "align": "center",
+                "bk_color": 14286844,
+                "bk_opacity": 0,
+                "color": 5811171,
+                "extents": true,
+                "extents_cx": 190,
+                "extents_cy": 50,
+                "file": "../../teamRed.txt",
+                "font": {
+                    "face": "Kanit",
+                    "flags": 0,
+                    "size": 45,
                     "style": ""
                 },
                 "gradient": true,
@@ -3615,7 +3613,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "teamRScore",
+            "name": "teamL 2",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3626,20 +3624,20 @@
                 "bk_opacity": 0,
                 "color": 5811171,
                 "extents": true,
-                "extents_cx": 40,
+                "extents_cx": 190,
                 "extents_cy": 50,
-                "file": "../../teamRedScore.txt",
+                "file": "../../teamBlue.txt",
                 "font": {
                     "face": "Kanit",
                     "flags": 0,
-                    "size": 40,
+                    "size": 45,
                     "style": ""
                 },
                 "gradient": true,
                 "gradient_color": 10272709,
                 "gradient_dir": 73.299999999999997,
-                "gradient_opacity": 28,
-                "opacity": 100,
+                "gradient_opacity": 33,
+                "opacity": 98,
                 "outline": false,
                 "outline_opacity": 0,
                 "read_from_file": true,
