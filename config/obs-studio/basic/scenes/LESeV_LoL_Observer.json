@@ -1,6 +1,6 @@
 {
-    "current_program_scene": "Ingame",
-    "current_scene": "Ingame",
+    "current_program_scene": "Idle",
+    "current_scene": "Idle",
     "current_transition": "Videoschnitt",
     "modules": {
         "auto-scene-switcher": {
@@ -1001,61 +1001,6 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "color_key_filter",
-                    "mixers": 0,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Color Key",
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "key_color_type": "magenta",
-                        "similarity": 463,
-                        "smoothness": 463
-                    },
-                    "sync": 0,
-                    "volume": 1.0
-                }
-            ],
-            "flags": 0,
-            "hotkeys": {
-                "MediaSource.Restart": [],
-                "libobs.mute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "libobs.unmute": []
-            },
-            "id": "ffmpeg_source",
-            "mixers": 15,
-            "monitoring_type": 0,
-            "muted": true,
-            "name": "Übergang",
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "settings": {
-                "clear_on_media_end": false,
-                "local_file": "../../Grafiken/Overlay/transition_1.mov",
-                "looping": false,
-                "restart_on_activate": true
-            },
-            "sync": 0,
-            "volume": 1.0
-        },
-        {
-            "deinterlace_field_order": 0,
-            "deinterlace_mode": 0,
-            "enabled": true,
             "flags": 0,
             "hotkeys": {},
             "id": "monitor_capture",
@@ -1997,7 +1942,6 @@
                 "libobs.hide_scene_item.TemplateSpielaufnahme": [],
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
-                "libobs.hide_scene_item.Übergang": [],
                 "libobs.show_scene_item.AUDIO Micro": [],
                 "libobs.show_scene_item.Bg": [],
                 "libobs.show_scene_item.TemplateCamBox": [
@@ -2017,8 +1961,7 @@
                 ],
                 "libobs.show_scene_item.TemplateSpielaufnahme": [],
                 "libobs.show_scene_item.TemplateWerbung": [],
-                "libobs.show_scene_item.TwitchAlert": [],
-                "libobs.show_scene_item.Übergang": []
+                "libobs.show_scene_item.TwitchAlert": []
             },
             "id": "scene",
             "mixers": 0,
@@ -2247,33 +2190,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 1,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 10,
-                        "locked": false,
-                        "name": "Übergang",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
                     }
                 ]
             },
@@ -2482,7 +2398,6 @@
                     }
                 ],
                 "libobs.hide_scene_item.TwitchAlert": [],
-                "libobs.hide_scene_item.Übergang": [],
                 "libobs.show_scene_item.AUDIO Micro": [],
                 "libobs.show_scene_item.LogoOnly": [
                     {
@@ -2530,8 +2445,7 @@
                         "shift": true
                     }
                 ],
-                "libobs.show_scene_item.TwitchAlert": [],
-                "libobs.show_scene_item.Übergang": []
+                "libobs.show_scene_item.TwitchAlert": []
             },
             "id": "scene",
             "mixers": 0,
@@ -2868,33 +2782,6 @@
                         },
                         "scale_filter": "disable",
                         "visible": true
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 1,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 19,
-                        "locked": true,
-                        "name": "Übergang",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
                     }
                 ]
             },
@@ -3009,7 +2896,6 @@
                 ],
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
-                "libobs.hide_scene_item.Übergang": [],
                 "libobs.show_scene_item.IdleBg": [],
                 "libobs.show_scene_item.TemplateCamBox": [],
                 "libobs.show_scene_item.TemplateInfoBox": [],
@@ -3021,8 +2907,7 @@
                     }
                 ],
                 "libobs.show_scene_item.TemplateWerbung": [],
-                "libobs.show_scene_item.TwitchAlert": [],
-                "libobs.show_scene_item.Übergang": []
+                "libobs.show_scene_item.TwitchAlert": []
             },
             "id": "scene",
             "mixers": 0,
@@ -3194,33 +3079,6 @@
                         "scale": {
                             "x": 0.28802081942558289,
                             "y": 0.28796297311782837
-                        },
-                        "scale_filter": "disable",
-                        "visible": false
-                    },
-                    {
-                        "align": 5,
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_align": 0,
-                        "bounds_type": 0,
-                        "crop_bottom": 0,
-                        "crop_left": 0,
-                        "crop_right": 0,
-                        "crop_top": 0,
-                        "id": 10,
-                        "locked": true,
-                        "name": "Übergang",
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "rot": 0.0,
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": false

@@ -1,1 +1,0 @@
-start "" /D "../" "../PortableGit/bin/sh.exe" -c "GitCommands/updateOverlay.sh"
