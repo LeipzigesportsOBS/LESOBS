@@ -1,0 +1,1 @@
+start "" /D "../" "../PortableGit/bin/sh.exe" -c "git checkout master"
