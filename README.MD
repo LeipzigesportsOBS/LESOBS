@@ -1,37 +1,38 @@
 Installationsanleitung Windows
 ------------------------------------
 
-* Herunterladen des Passenden Archivs für die verwendete Architektur (32 oder 64 bit)
-** [Windows 64 Bit (für *FAST* alle empfohlen)](Install/Windows-64.zip)
-** [Windows 32 Bit (für ältere Systeme)](Install/Windows-32.zip)
-* Entpacken des Archivs im gewünschten Zielordner (z.B. C:/LES-OBS)
-* Starten von install.bat (Idealerweise als Administrator) und Befolgen der Bildschirmanweisungen
+* Herunterladen des Passenden Archivs fÃ¼r die verwendete Architektur (32 oder 64 bit)
+  >[Windows 64 Bit (fÃ¼r *FAST* alle empfohlen)](Install/Windows-64.zip)
+  
+  >[Windows 32 Bit (fÃ¼r Ã¤ltere Systeme)](Install/Windows-32.zip)
+* Entpacken des Archivs im gewÃ¼nschten Zielordner (z.B. C:/LES-OBS)
+* Starten von install.bat und Befolgen der Bildschirmanweisungen
 * Nach durchlaufen der install.bat sollte OBS automatisch starten
-* Um OBS in zukunft schnell Starten zu können erstellt Euch eine Verknüpfung zu der StartOBS64Bit.bat bzw. StartOBS32Bit.bat auf Eurem Desktop
+* Um OBS in zukunft schnell Starten zu kÃ¶nnen erstellt Euch eine VerknÃ¼pfung zu der StartOBS64Bit.bat bzw. StartOBS32Bit.bat auf Eurem Desktop
 
 Einrichtung des Streamkeys
 ----------------------------------------
 
-* Die Entcoding Einstellung sind schon voreingestellt und ihr müsst nur noch Euren Streamkey hinzufügen 
-* Geht in OBS auf Profil -> LESA und dann im Hauptfenster auf Einstellungen -> Stream. Hier fügt ihr Euren persönlichen Streamkey ein
-* Analog macht ihr das für den LESB, solltet ihr auch einen Streamkey für den B-Chanel haben
+* Die Entcoding Einstellung sind schon voreingestellt und ihr mÃ¼sst nur noch Euren Streamkey hinzufÃ¼gen 
+* Geht in OBS auf Profil -> LESA und dann im Hauptfenster auf Einstellungen -> Stream. Hier fÃ¼gt ihr Euren persÃ¶nlichen Streamkey ein
+* Analog macht ihr das fÃ¼r den LESB, solltet ihr auch einen Streamkey fÃ¼r den B-Chanel haben
 
 Update des Overlays (Windows)
 -----------------------------------------
 
-* Wenn es Updates am Overlay gibt (Neue Sponsoren, neues Design etc.) werdet ihr vom Twitch admin aufgefordert ein Update des Overlays durchzuführen
-* Hierfür fürht ihr einfach die updateOverlay.bat im Hauptverzeichniss aus
+* Wenn es Updates am Overlay gibt (Neue Sponsoren, neues Design etc.) werdet ihr vom Twitch admin aufgefordert ein Update des Overlays durchzufÃ¼hren
+* HierfÃ¼r fÃ¼rht ihr einfach die updateOverlay.bat im Hauptverzeichniss aus
 
-Vorschlagen eigener Szenen für bestimmte Spiele (Windows)
+Vorschlagen eigener Szenen fÃ¼r bestimmte Spiele (Windows)
 -------------------------------------------------------------
 
-* Ihr habt eine eigene Szene für ein bestimmtes Spiel erstellt und möchtest diese für alle zur Verfügungstellen?
+* Ihr habt eine eigene Szene fÃ¼r ein bestimmtes Spiel erstellt und mÃ¶chtest diese fÃ¼r alle zur VerfÃ¼gungstellen?
 * Erstellt ganz normal im OBS eure Szene
 * Erstellt euch einen GitHub Account (https://github.com/join?source=login)
-* Führt bei erster Verwendung die GitEinstellungen.bat im Verzeichniss GitCommands aus
-* Führt EigeneSzeneVorschlagen.bat im Verzeichniss GitCommands aus und folgt den Bildschirmanweisungen
+* FÃ¼hrt bei erster Verwendung die GitEinstellungen.bat im Verzeichniss GitCommands aus
+* FÃ¼hrt EigeneSzeneVorschlagen.bat im Verzeichniss GitCommands aus und folgt den Bildschirmanweisungen
 
-Alternativ navigiert in den unterordner config/obs-studio/basic/scenes/ und schickt die entsprechende .json Datei per Mail an admin@leipzigesports.de (Hier wird die bearbeitungszeit definitiv länger sein ;) )
+Alternativ navigiert in den unterordner config/obs-studio/basic/scenes/ und schickt die entsprechende .json Datei per Mail an admin@leipzigesports.de (Hier wird die bearbeitungszeit definitiv lÃ¤nger sein ;) )
 
 Importieren einer eigenen Szene aus dem alten LES-Overlay (Windows)
 ----------------------------------------------------------------
