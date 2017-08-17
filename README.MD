@@ -2,11 +2,15 @@ Installationsanleitung Windows
 ------------------------------------
 
 * Herunterladen des Passenden Archivs für die verwendete Architektur (32 oder 64 bit)
-** [Windows 64 Bit (für *FAST* alle empfohlen)](Install/Windows-64.zip)
-** [Windows 32 Bit (für ältere Systeme)](Install/Windows-32.zip)
+>[Windows 64 Bit (für *FAST* alle empfohlen)](Install/Windows-64.zip)
+
+> [Windows 32 Bit (für ältere Systeme)](Install/Windows-32.zip)
 * Entpacken des Archivs im gewünschten Zielordner (z.B. C:/LES-OBS)
 * Starten von install.bat (Idealerweise als Administrator) und Befolgen der Bildschirmanweisungen
 * Nach durchlaufen der install.bat sollte OBS automatisch starten
+* Erscheint hier die Fehlermeldung:
+>MSVCP120.dll nicht gefundden
+Bitte zusätzlich die install-vcredist.bat ausführen und den Bildschirmanweisungen folgen.
 * Um OBS in zukunft schnell Starten zu können erstellt Euch eine Verknüpfung zu der StartOBS64Bit.bat bzw. StartOBS32Bit.bat auf Eurem Desktop
 
 Einrichtung des Streamkeys
