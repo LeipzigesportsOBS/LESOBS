@@ -39,5 +39,6 @@ Importieren einer eigenen Szene aus dem alten LES-Overlay (Windows)
 
 * Beendet OBS
 * Navigiert in euren AppData ordner (C:/Benutzer/EUER BENUTZERNAME/AppData/obs-studio/basic/scenes/) und kopiert die .json datei in den Neuen Installations-Ordner unter config/obs-studio/basic/scenes/
-** PRO Tipp 1: Versteckte Dateien und Ordner einblenden
-** PRO Tipp 2: einfach %AppData%/obs-studio/basic/scenes in der adresszeile des Dateiexplorers eingeben
+>PRO Tipp 1: Versteckte Dateien und Ordner einblenden
+
+> PRO Tipp 2: einfach %AppData%/obs-studio/basic/scenes in der adresszeile des Dateiexplorers eingeben
