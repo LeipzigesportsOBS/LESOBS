@@ -30,14 +30,15 @@ echo ---------------------------------------------------------------------------
 echo  
 timeout /t 3
 start /wait "" "PortableGit/bin/sh.exe" -c "git clone https://github.com/LeipzigesportsOBS/LESOBS/ tmp && mv tmp/.git . && rm -rf tmp && git reset --hard"
-xcopy /E /H profiles ..\..\config\obs-studio\basic\profiles\
+mkdir config\obs-studio\basic\profiles
+xcopy /E /H /Y profiles config\obs-studio\basic\profiles\
 echo   
 echo ------------------------------------------------------------------------------------------------
 echo  Im naechsten Schritt werden die benoetigten Schriftarten installiert                        
 echo  In den  4 oeffneden Fenstern bitte Installieren klicken und diese im Anschluss schliessen      
 echo ------------------------------------------------------------------------------------------------
 echo  
-timeout /t 8
+timeout /t 15
 cd fonts
 start "" /wait installfont.bat
 cd ..
