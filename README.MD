@@ -7,7 +7,7 @@
 
 > [Windows 32 Bit (für ältere Systeme)](Install/Windows-32.zip)
 * Entpacken des Archivs im gewünschten Zielordner (z.B. C:/LES-OBS)
-* Starten von install.bat (Idealerweise als Administrator) und Befolgen der Bildschirmanweisungen
+* Starten von install.bat und Befolgen der Bildschirmanweisungen (bitte **nicht** als Administrator ausführen!)
 * Nach durchlaufen der install.bat sollte OBS automatisch starten
 * Erscheint hier die Fehlermeldung: MSVCP120.dll nicht gefunden. Bitte zusätzlich die install-vcredist.bat ausführen und den Bildschirmanweisungen folgen.
 * Um OBS in zukunft schnell Starten zu können erstellt Euch eine Verknüpfung zu der StartOBS64Bit.bat bzw. StartOBS32Bit.bat auf Eurem Desktop
