@@ -25,8 +25,8 @@
         "sync": 0,
         "volume": 1.0
     },
-    "current_program_scene": "TemplateInfoBox",
-    "current_scene": "TemplateInfoBox",
+    "current_program_scene": "Idle",
+    "current_scene": "Idle",
     "current_transition": "Videoschnitt",
     "modules": {
         "auto-scene-switcher": {
@@ -183,7 +183,7 @@
             "id": "wasapi_input_capture",
             "mixers": 255,
             "monitoring_type": 0,
-            "muted": true,
+            "muted": false,
             "name": "AUDIO Mircro",
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -491,11 +491,11 @@
                     {
                         "align": 5,
                         "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
+                            "x": 1920.0,
+                            "y": 1080.0
                         },
                         "bounds_align": 0,
-                        "bounds_type": 0,
+                        "bounds_type": 1,
                         "crop_bottom": 0,
                         "crop_left": 0,
                         "crop_right": 0,
@@ -504,13 +504,13 @@
                         "locked": false,
                         "name": "TemplateCamBox",
                         "pos": {
-                            "x": 1301.0,
-                            "y": 680.0
+                            "x": 0.0,
+                            "y": 0.0
                         },
                         "rot": 0.0,
                         "scale": {
-                            "x": 0.28802081942558289,
-                            "y": 0.28796297311782837
+                            "x": 1.0,
+                            "y": 1.0
                         },
                         "scale_filter": "disable",
                         "visible": false
@@ -616,7 +616,13 @@
                         "key": "OBS_KEY_F10"
                     }
                 ],
-                "libobs.hide_scene_item.AUDIO Mircro": [],
+                "libobs.hide_scene_item.AUDIO Mircro": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM0"
+                    }
+                ],
                 "libobs.hide_scene_item.LogoOnly": [],
                 "libobs.hide_scene_item.TemplateBoxInfoObenLinks": [],
                 "libobs.hide_scene_item.TemplateCamBox": [
@@ -639,7 +645,13 @@
                 "libobs.hide_scene_item.TemplateTickerUntenRechts": [],
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
-                "libobs.show_scene_item.AUDIO Mircro": [],
+                "libobs.show_scene_item.AUDIO Mircro": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM0"
+                    }
+                ],
                 "libobs.show_scene_item.LogoOnly": [],
                 "libobs.show_scene_item.TemplateBoxInfoObenLinks": [],
                 "libobs.show_scene_item.TemplateCamBox": [
@@ -916,7 +928,7 @@
                             "y": 0.16311399638652802
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,
@@ -1130,7 +1142,13 @@
                         "key": "OBS_KEY_F9"
                     }
                 ],
-                "libobs.hide_scene_item.AUDIO Mircro": [],
+                "libobs.hide_scene_item.AUDIO Mircro": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM0"
+                    }
+                ],
                 "libobs.hide_scene_item.Bg": [],
                 "libobs.hide_scene_item.TemplateCamBox": [
                     {
@@ -1150,7 +1168,13 @@
                 "libobs.hide_scene_item.TemplateSpielaufnahme": [],
                 "libobs.hide_scene_item.TemplateWerbung": [],
                 "libobs.hide_scene_item.TwitchAlert": [],
-                "libobs.show_scene_item.AUDIO Mircro": [],
+                "libobs.show_scene_item.AUDIO Mircro": [
+                    {
+                        "alt": true,
+                        "control": true,
+                        "key": "OBS_KEY_NUM0"
+                    }
+                ],
                 "libobs.show_scene_item.Bg": [],
                 "libobs.show_scene_item.TemplateCamBox": [
                     {
@@ -1262,7 +1286,7 @@
                             "y": 0.3055555522441864
                         },
                         "scale_filter": "disable",
-                        "visible": false
+                        "visible": true
                     },
                     {
                         "align": 5,

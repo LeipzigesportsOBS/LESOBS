@@ -20,6 +20,26 @@ Einrichtung des Streamkeys
 * Geht in OBS auf Profil -> LESA und dann im Hauptfenster auf Einstellungen -> Stream. Hier fügt ihr Euren persönlichen Streamkey ein
 * Analog macht ihr das für den LESB, solltet ihr auch einen Streamkey für den B-Chanel haben
 
+Hotkeys
+----------------------------------------
+
+Folgende Hotkeys sind in allen Szenen gesetzt:
+
+* Umschalten auf Main : STRG + ALT + Numpad 1
+* Umschalten auf Ingame : STRG + ALT + Numpad 2
+* Umschalten auf Idle : STRG + ALT + Numpad 3
+* Microfon ein und aus : STRG + ALT + Numpad 0
+> in der Idle szene ist kein Microfon als Quelle hinzugefügt, somit kein Muten notwendig. Wichtig ist das ihr *NICHT* in den OBS Einstellungen euer Micro als ausgabegerät auswählt! Es wird immer das im Windows eingestellte Standart microfon als aufnahmegerät verwendt. Einstellungen zu Filtern (Noisegate usw.) bitte über die Ingame oder Main Szene über die Quelle "Audio Micro" 
+
+* Kamera Ein und Ausschalten : STRG + ALT + Numpad 4
+* Musicticker Ein und Auschalten: STRG + ALT + Numpad 5
+
+Anleitung Spezielle Szenen
+------------------------------------
+
+* [LoL Observer Overlay](docs/LolObserver.md)
+
+
 Update des Overlays (Windows)
 -----------------------------------------
 
@@ -80,6 +100,10 @@ Nein. Dem Twitchadmin ist es schon lang ein Dorn im Auge das manche Änderungen 
 > Kann zur Weiterentwicklung des Overlays Beitragen?
 
 Natürlich! Du kannst wie oben beschrieben eigene Szenen zur Aufnahme in das Overlay hinzufügen. Außerdem kannst du dich auch gerne an der weiterentwicklung der Instalationsroutinen beteiligen. Das repository ist öffenlich und ich freue mich über Pullrequest mit sinnvollen Verbesserungen!
+
+> Was ist mit deiesm Autohotkey script wovon ich zwar gelesen habe, aber kaum Jemand hat es benutzt?
+
+Dies ist nicht mehr notwendig. OBS unterstützt jetzt von haus aus eine Videotransisition.
 
 > Warum nur Windows?
 
