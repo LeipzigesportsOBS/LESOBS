@@ -109,6 +109,10 @@ Dies ist nicht mehr notwendig. OBS unterstützt jetzt von haus aus eine Videotra
 
 Windows ist momentan vermutlich die Hauptsächlich genutzte Platform bei unseren Streamern. Weitere Platformen sind in Arbeit werden allerdings noch dauern
 
+> Darf ich das Overlay auch auf meinem eigenen Kanal verwenden?
+
+Nein. Wie auch beim Alten Overlay wollen wir vermeiden dass evtl. auch externe sich durch das Overlay als Vertreter des Vereins ausgeben. Weiterhin sind alle verwendeten Grafiken geistiges Eigentum des vereins bzw. die Nutzung dieser ist nur dem Verein gestattet.
+
 > Marzipan oder Nougat?
 
 Ganz klar team Nougat
