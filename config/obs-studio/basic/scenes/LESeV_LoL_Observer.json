@@ -1684,11 +1684,11 @@
                         "crop_right": 0,
                         "crop_top": 0,
                         "id": 12,
-                        "locked": false,
+                        "locked": true,
                         "name": "DonationGoals",
                         "pos": {
-                            "x": 1168.0,
-                            "y": 242.0
+                            "x": 1186.0,
+                            "y": 572.0
                         },
                         "rot": 0.0,
                         "scale": {
