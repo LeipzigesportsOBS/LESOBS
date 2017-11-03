@@ -13,6 +13,7 @@
         "captions": {
             "enabled": false,
             "lang_id": 1031,
+            "provider": "mssapi",
             "source": ""
         },
         "output-timer": {
@@ -163,6 +164,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "DonationGoals",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -190,6 +192,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Noise Gate",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -213,6 +216,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "AUDIO Micro",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -234,6 +238,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TeamLBG 2",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -260,6 +265,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Chroma Key",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -279,6 +285,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "teamRBG 2",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -300,6 +307,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "teamLScore 2",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -344,6 +352,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Fensteraufnahme",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -365,6 +374,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "LogoOnly",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -386,6 +396,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "CamBox4:3",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -407,6 +418,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "LOLClient",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -428,6 +440,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "IdleBg",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -486,6 +499,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Idle",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -512,6 +526,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -539,6 +554,7 @@
                             "x": 52.0,
                             "y": 48.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -566,6 +582,7 @@
                             "x": 55.0,
                             "y": 791.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -593,6 +610,7 @@
                             "x": 53.0,
                             "y": 945.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -620,6 +638,7 @@
                             "x": 1199.0,
                             "y": 268.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.84500002861022949,
@@ -647,6 +666,7 @@
                             "x": 1301.0,
                             "y": 680.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.28802081942558289,
@@ -676,6 +696,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Bewegung",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -698,6 +719,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "IngameTicker",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -728,6 +750,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "InfoBoxObenLinks",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -872,6 +895,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Ingame",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -898,6 +922,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -925,6 +950,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.72477066516876221,
@@ -952,6 +978,7 @@
                             "x": 1385.0,
                             "y": 930.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -979,6 +1006,7 @@
                             "x": 0.0,
                             "y": 930.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1006,6 +1034,7 @@
                             "x": 334.0,
                             "y": 343.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.68229168653488159,
@@ -1033,6 +1062,7 @@
                             "x": 1624.0,
                             "y": 788.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.55327105522155762,
@@ -1060,6 +1090,7 @@
                             "x": 1332.0,
                             "y": 1039.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.73809522390365601,
@@ -1087,6 +1118,7 @@
                             "x": 1527.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.68466901779174805,
@@ -1114,6 +1146,7 @@
                             "x": 311.0,
                             "y": 904.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.16316089034080505,
@@ -1141,6 +1174,7 @@
                             "x": 1336.0,
                             "y": 853.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.37874999642372131,
@@ -1168,6 +1202,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1195,6 +1230,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1222,6 +1258,7 @@
                             "x": 0.0,
                             "y": 993.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.59624999761581421,
@@ -1251,6 +1288,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Bewegung",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -1273,6 +1311,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Music Ticker",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1308,6 +1347,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Bewegung",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -1330,6 +1370,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Info",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1360,6 +1401,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Bg",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1448,6 +1490,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Main",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1474,6 +1517,7 @@
                             "x": 0.0,
                             "y": 62.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.61770832538604736,
@@ -1501,6 +1545,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1528,6 +1573,7 @@
                             "x": 1277.0,
                             "y": 704.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.30520832538604736,
@@ -1555,6 +1601,7 @@
                             "x": 1275.0,
                             "y": 639.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1582,6 +1629,7 @@
                             "x": 63.0,
                             "y": 780.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1609,6 +1657,7 @@
                             "x": 60.0,
                             "y": 940.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1636,6 +1685,7 @@
                             "x": 1226.0,
                             "y": 130.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.77999997138977051,
@@ -1663,6 +1713,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1690,6 +1741,7 @@
                             "x": 1186.0,
                             "y": 572.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.89375001192092896,
@@ -1720,6 +1772,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Patner",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1756,6 +1809,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "PatnerBG",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1782,6 +1836,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Skalierung/Seitenverhältnis",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -1801,6 +1856,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -1826,6 +1882,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateWerbung",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1852,6 +1909,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1879,6 +1937,7 @@
                             "x": 0.0,
                             "y": 9.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1908,6 +1967,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -1934,6 +1994,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateMusicTicker",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -1960,6 +2021,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -1987,6 +2049,7 @@
                             "x": 30.0,
                             "y": 11.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2011,6 +2074,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "MusicTickerBg",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2037,6 +2101,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2062,6 +2127,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateBoxInfoObenLinks",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2088,6 +2154,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2115,6 +2182,7 @@
                             "x": 111.0,
                             "y": 12.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2144,6 +2212,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2171,6 +2240,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateCamBox",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2197,6 +2267,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2224,6 +2295,7 @@
                             "x": 270.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 4.2492580413818359,
@@ -2251,6 +2323,7 @@
                             "x": 0.0,
                             "y": 44.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.91458332538604736,
@@ -2275,6 +2348,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "CamBoxBg",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2301,6 +2375,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2327,6 +2402,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateInfoBox",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2353,6 +2429,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2380,6 +2457,7 @@
                             "x": 3.0,
                             "y": 14.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2404,6 +2482,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "InfoBox",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2435,6 +2514,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateSpielaufnahme",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2461,6 +2541,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.2024999856948853,
@@ -2488,6 +2569,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2515,6 +2597,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 0.99739581346511841,
@@ -2542,6 +2625,7 @@
                             "x": 0.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2581,6 +2665,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Spielaufnahme",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2603,6 +2688,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Monitor",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2627,6 +2713,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2652,6 +2739,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateInfoBoxObenRechts",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2678,6 +2766,7 @@
                             "x": 1386.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2705,6 +2794,7 @@
                             "x": 1389.0,
                             "y": 11.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2729,6 +2819,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TopRightInfo",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2755,6 +2846,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2780,6 +2872,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateInfoBoxUntenLinks",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2806,6 +2899,7 @@
                             "x": 0.0,
                             "y": 917.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2833,6 +2927,7 @@
                             "x": 82.0,
                             "y": 1039.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -2857,6 +2952,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Bild",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2883,6 +2979,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Bewegung",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2905,6 +3002,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "IngameTickerBot",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2938,6 +3036,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Zuschneiden/Pad",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -2963,6 +3062,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateTickerUntenRechts",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -2989,6 +3089,7 @@
                             "x": 1386.0,
                             "y": 917.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3016,6 +3117,7 @@
                             "x": 1389.0,
                             "y": 1038.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3040,6 +3142,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TickerUntenRechts",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3061,6 +3164,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TwitchAlert",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3087,6 +3191,7 @@
             "monitoring_type": 0,
             "muted": true,
             "name": "Videoaufnahmegerät",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3113,6 +3218,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "teamRScore",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3162,6 +3268,7 @@
                     "monitoring_type": 0,
                     "muted": false,
                     "name": "Color Key",
+                    "private_settings": {},
                     "push-to-mute": false,
                     "push-to-mute-delay": 0,
                     "push-to-talk": false,
@@ -3194,6 +3301,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "TemplateLolObserver",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3220,6 +3328,7 @@
                             "x": 396.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3247,6 +3356,7 @@
                             "x": 1278.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3274,6 +3384,7 @@
                             "x": 1282.0,
                             "y": 6.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3301,6 +3412,7 @@
                             "x": 1494.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3328,6 +3440,7 @@
                             "x": 460.0,
                             "y": 5.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3355,6 +3468,7 @@
                             "x": 404.0,
                             "y": 0.0
                         },
+                        "private_settings": {},
                         "rot": 0.0,
                         "scale": {
                             "x": 1.0,
@@ -3379,6 +3493,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "teamR 2",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
@@ -3423,6 +3538,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "teamL 2",
+            "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,

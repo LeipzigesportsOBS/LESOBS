@@ -10,12 +10,12 @@ echo ---------------------------------------------------------------------------
 echo  Download der GIT Binaries
 echo ------------------------------------------------------------------------------------------------
 timeout /t 3
-wget\wget.exe -O git.7z.exe https://github.com/git-for-windows/git/releases/download/v2.14.1.windows.1/PortableGit-2.14.1-64-bit.7z.exe
+wget\wget.exe https://github.com/git-for-windows/git/releases/download/v2.14.1.windows.1/PortableGit-2.14.1-64-bit.7z.exe
 echo ------------------------------------------------------------------------------------------------
 echo  Bitte den Anweisungen des sich oeffnenden Programms folgen und im aktuellen Ordner entpacken!
 echo ------------------------------------------------------------------------------------------------
 timeout /t 5
-start /max /wait git.7z.exe
+start /wait PortableGit-2.14.1-64-bit.7z.exe
 rm git.7z.exe
 echo ------------------------------------------------------------------------------------------------
 echo  Overlay wird nun heruntergeladen und Installiert!
