@@ -1502,10 +1502,10 @@
             "flags": 0,
             "hotkeys": {
                 "OBSBasic.SelectScene": [],
-                "libobs.hide_scene_item.Patner": [],
-                "libobs.hide_scene_item.PatnerBG": [],
-                "libobs.show_scene_item.Patner": [],
-                "libobs.show_scene_item.PatnerBG": []
+                "libobs.hide_scene_item.Partner": [],
+                "libobs.hide_scene_item.PartnerBG": [],
+                "libobs.show_scene_item.Partner": [],
+                "libobs.show_scene_item.PartnerBG": []
             },
             "id": "scene",
             "mixers": 0,
@@ -1534,7 +1534,7 @@
                         "crop_top": 0,
                         "id": 1,
                         "locked": true,
-                        "name": "PatnerBG",
+                        "name": "PartnerBG",
                         "pos": {
                             "x": 0.0,
                             "y": 0.0
@@ -1562,7 +1562,7 @@
                         "crop_top": 0,
                         "id": 2,
                         "locked": true,
-                        "name": "Patner",
+                        "name": "Partner",
                         "pos": {
                             "x": 0.0,
                             "y": 9.0
@@ -1591,14 +1591,14 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "PatnerBG",
+            "name": "PartnerBG",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "settings": {
-                "file": "../../Grafiken/Overlay/Patner/sponsorbox.png"
+                "file": "../../Grafiken/Overlay/Partner/sponsorbox.png"
             },
             "sync": 0,
             "volume": 1.0
@@ -1619,7 +1619,7 @@
             "mixers": 0,
             "monitoring_type": 0,
             "muted": false,
-            "name": "Patner",
+            "name": "Partner",
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -1628,16 +1628,16 @@
             "settings": {
                 "files": [
                     {
-                        "value": "../../Grafiken/Overlay/Patner/3-Sponsors.png"
+                        "value": "../../Grafiken/Overlay/Partner/3-Sponsors.png"
                     },
                     {
-                        "value": "../../Grafiken/Overlay/Patner/3-Sponsors1.png"
+                        "value": "../../Grafiken/Overlay/Partner/3-Sponsors1.png"
                     },
                     {
-                        "value": "../../Grafiken/Overlay/Patner/lioncast.png"
+                        "value": "../../Grafiken/Overlay/Partner/lioncast.png"
                     },
                     {
-                        "value": "../../Grafiken/Overlay/Patner/5-SocialMedia.png"
+                        "value": "../../Grafiken/Overlay/Partner/5-SocialMedia.png"
                     }
                 ],
                 "transition": "slide",
