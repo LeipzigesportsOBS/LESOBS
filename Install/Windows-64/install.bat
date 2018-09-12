@@ -3,7 +3,7 @@ echo ---------------------------------------------------------------------------
 echo  Download und Entpacken der OBS Binaries
 echo ------------------------------------------------------------------------------------------------
 timeout /t 3
-wget\wget.exe -O obs.zip https://github.com/jp9000/obs-studio/releases/download/20.0.1/OBS-Studio-20.0.1-Full.zip
+wget\wget.exe -O obs.zip https://github.com/obsproject/obs-studio/releases/download/22.0.2/OBS-Studio-22.0.2-Full-x64.zip
 unzip\bin\unzip.exe obs.zip
 rm obs.zip
 echo ------------------------------------------------------------------------------------------------
