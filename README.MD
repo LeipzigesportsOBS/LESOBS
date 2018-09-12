@@ -2,10 +2,9 @@
 ------------------------------------
 
 
-* Herunterladen des Passenden Archivs für die verwendete Architektur (32 oder 64 bit)
+* Herunterladen des Archivs
 >[Windows 64 Bit (für *FAST* alle empfohlen)](Install/Windows-64.zip)
 
-> [Windows 32 Bit (für ältere Systeme)](Install/Windows-32.zip)
 * Entpacken des Archivs im gewünschten Zielordner (z.B. C:/LES-OBS)
 * Starten von install.bat und Befolgen der Bildschirmanweisungen (bitte **nicht** als Administrator ausführen!)
 * Nach durchlaufen der install.bat sollte OBS automatisch starten
@@ -16,7 +15,7 @@
 Einrichtung des Streamkeys
 ----------------------------------------
 
-* Die Entcoding Einstellung sind schon voreingestellt und ihr müsst nur noch Euren Streamkey hinzufügen 
+* Die Encoding Einstellung sind schon voreingestellt und ihr müsst nur noch Euren Streamkey hinzufügen 
 * Geht in OBS auf Profil -> LESA und dann im Hauptfenster auf Einstellungen -> Stream. Hier fügt ihr Euren persönlichen Streamkey ein
 * Analog macht ihr das für den LESB, solltet ihr auch einen Streamkey für den B-Chanel haben
 
